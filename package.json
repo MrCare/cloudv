@@ -1,6 +1,6 @@
 {
   "name": "cloudv",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "cloudv 前端组件库",
   "main": "lib/index.esm.js",
   "files": [

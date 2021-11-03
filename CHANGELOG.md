@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 0.1.0 (2021-11-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* 🧨 nothing
+
+### Features
+
+* 🎸 first update ([e18dfe3](https://github.com/cloudv/cloudv/commit/e18dfe341bb0420a6eaa60e1da38cc73ac2901ab))
+
+
+### Bug Fixes
+
+* 🐛 ignore the import lib file ([db94c94](https://github.com/cloudv/cloudv/commit/db94c9449146a0ffdbd813370296287aed2c6565))
+
 ### [0.0.3](///compare/v0.0.2...v0.0.3) (2020-06-01)
 
 ### 0.0.2 (2020-06-01)
