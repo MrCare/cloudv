@@ -10,7 +10,7 @@
     "name": "Mr.Care",
     "email": "534192336car@gmail.com"
   },
-  "repository": "cloudv/cloudv",
+  "repository": "MrCare/cloudv",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
