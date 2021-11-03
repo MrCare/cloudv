@@ -1,10 +1,10 @@
 
 import { mount } from '@vue/test-utils'
-import HelloWorld from "../src/HelloWorld";
+import cloudvMap from "../src/cloudv-map.vue";
 
-describe("HelloWorld.test.js", () => {
+describe("cloudvMap.test.js", () => {
   // 现在挂载组件，你便得到了这个包裹器
-  const wrapper = mount(HelloWorld, {
+  const wrapper = mount(cloudvMap, {
     propsData: {
       message: 'World1'
     }

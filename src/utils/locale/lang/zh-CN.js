@@ -1,4 +1,4 @@
-import helloworld from "../../../../packages/HelloWorld/lang/zh-CN";
+import helloworld from "../../../../packages/hello-world/lang/zh-CN";
 
 export default {
   vgc: {

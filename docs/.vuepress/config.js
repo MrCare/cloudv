@@ -15,38 +15,42 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
-  head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
-  ],
+  // head: [
+  //   ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+  //   ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+  //   ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+  // ],
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    logo: '/img/logo.jpeg',
     nav: [
-    ],
-    sidebar: [
-      ["/", "介绍"],
       {
-        title: '向导',
-        collapsable: false,
-        children: [
-          '/guide/using-components',
+        text: '文档',
+        items: [
+          { text: '组件说明', link: '/guide/using-components' },
         ]
-      }
-    ]
+      },
+      { text: '线上地址', link: 'nothing to deploy' },
+    ],
+    sidebar: {
+      '/guide/': [
+        '', // 文档说明
+        'hello-world', // hello-world 组件
+        'cloudv-map', // cloudv-map 组件
+      ]
+    },
+    sidebarDepth: 2,
+    nextLinks: true,
+    prevLinks: true,
   },
 
-  chainWebpack: webpackConfig =>{
+  chainWebpack: webpackConfig => {
     webpackConfig.resolve.alias.set(
       'vgc',
       path.resolve(__dirname, '../../src')
@@ -61,9 +65,9 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    "vuepress-plugin-code-box"
-  ]
+  // plugins: [
+  //   '@vuepress/plugin-back-to-top', // 自底向上的返回按钮
+  //   '@vuepress/plugin-medium-zoom', // 字体放大
+  //   "vuepress-plugin-code-box" // 隐藏代码块
+  // ]
 }

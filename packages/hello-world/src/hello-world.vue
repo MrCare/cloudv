@@ -9,7 +9,7 @@
 <script>
 import Locale from "../../../src/utils/mixins/locale.js";
 export default {
-  name: "HelloWorld",
+  name: "hello-world",
   mixins: [Locale],
   props: {
     message: {
