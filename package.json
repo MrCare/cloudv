@@ -1,14 +1,14 @@
 {
   "name": "cloudv",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "cloudv 前端组件库",
   "main": "lib/index.js",
   "files": [
     "*"
   ],
   "authors": {
-    "name": "cloudv",
-    "email": "534192336@qq.com"
+    "name": "Mr.Care",
+    "email": "534192336car@gmail.com"
   },
   "repository": "cloudv/cloudv",
   "scripts": {
