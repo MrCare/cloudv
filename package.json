@@ -43,6 +43,7 @@
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "jest-serializer-vue": "^0.2.0",
+    "mapbox-gl": "^2.5.1",
     "markdown-it-task-lists": "^2.1.1",
     "rimraf": "^3.0.2",
     "rollup": "^1.16.7",
@@ -60,7 +61,8 @@
     "vue": "^2.6.11",
     "vue-jest": "^3.0.5",
     "vuepress": "^1.3.1",
-    "vuepress-plugin-code-box": "^0.0.4"
+    "vuepress-plugin-code-box": "^0.0.4",
+    "vuepress-plugin-demo-container": "^0.2.0"
   },
   "browserslist": [
     "defaults"

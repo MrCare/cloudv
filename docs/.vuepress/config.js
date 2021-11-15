@@ -65,9 +65,10 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  // plugins: [
-  //   '@vuepress/plugin-back-to-top', // 自底向上的返回按钮
-  //   '@vuepress/plugin-medium-zoom', // 字体放大
-  //   "vuepress-plugin-code-box" // 隐藏代码块
-  // ]
+  plugins: [
+    // '@vuepress/plugin-back-to-top', // 自底向上的返回按钮
+    // '@vuepress/plugin-medium-zoom', // 字体放大
+    // "vuepress-plugin-code-box", // 隐藏代码块
+    "vuepress-plugin-demo-container"
+  ]
 }
